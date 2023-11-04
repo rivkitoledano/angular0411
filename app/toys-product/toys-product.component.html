@@ -1,0 +1,10 @@
+<p>toys-product works!</p>
+<div *ngFor="let x of toysProduct">
+    <div>{{x.age}}</div>
+    <div>{{x.name}}</div>
+    <div>{{x.barcode}}</div>
+    <button (click)="func1(x.barcode)">add</button>
+    <button (click)="func2(x.barcode)">remove</button>
+
+</div>
+<div></div>

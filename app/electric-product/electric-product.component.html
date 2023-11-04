@@ -1,0 +1,9 @@
+<p>electric-product works!</p>
+<div *ngFor="let x of electricProduct">
+    <div>{{x.yevouan}}</div>
+    <div>{{x.name}}</div>
+    <div>{{x.barcode}}</div>
+    <button (click)="func1(x.barcode)">add</button>
+    <button (click)="func2(x.barcode)">remove</button>
+
+</div>
